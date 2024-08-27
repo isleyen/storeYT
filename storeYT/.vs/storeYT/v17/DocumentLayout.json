@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ahmet\\source\\repos\\storeYT\\",
+  "WorkspaceRootPath": "C:\\Users\\ahmet\\Documents\\GitHub\\storeYT\\storeYT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42AB7BBE-3391-42B2-883D-58D8A0BA09BA}|storeYT.vcxproj|C:\\Users\\ahmet\\source\\repos\\storeYT\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{42AB7BBE-3391-42B2-883D-58D8A0BA09BA}|storeYT.vcxproj|C:\\Users\\ahmet\\Documents\\GitHub\\storeYT\\storeYT\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{42AB7BBE-3391-42B2-883D-58D8A0BA09BA}|storeYT.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42AB7BBE-3391-42B2-883D-58D8A0BA09BA}|storeYT.vcxproj|C:\\Users\\ahmet\\source\\repos\\storeYT\\store.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{42AB7BBE-3391-42B2-883D-58D8A0BA09BA}|storeYT.vcxproj|C:\\Users\\ahmet\\Documents\\GitHub\\storeYT\\storeYT\\store.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{42AB7BBE-3391-42B2-883D-58D8A0BA09BA}|storeYT.vcxproj|solutionrelative:store.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42AB7BBE-3391-42B2-883D-58D8A0BA09BA}|storeYT.vcxproj|C:\\Users\\ahmet\\source\\repos\\storeYT\\store.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{42AB7BBE-3391-42B2-883D-58D8A0BA09BA}|storeYT.vcxproj|C:\\Users\\ahmet\\Documents\\GitHub\\storeYT\\storeYT\\store.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{42AB7BBE-3391-42B2-883D-58D8A0BA09BA}|storeYT.vcxproj|solutionrelative:store.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\ahmet\\source\\repos\\storeYT\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\ahmet\\Documents\\GitHub\\storeYT\\storeYT\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\ahmet\\source\\repos\\storeYT\\main.cpp",
+              "ToolTip": "C:\\Users\\ahmet\\Documents\\GitHub\\storeYT\\storeYT\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACEAAAA9AAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-15T21:05:23.845Z",
               "IsPinned": true,
@@ -42,9 +42,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "store.h",
-              "DocumentMoniker": "C:\\Users\\ahmet\\source\\repos\\storeYT\\store.h",
+              "DocumentMoniker": "C:\\Users\\ahmet\\Documents\\GitHub\\storeYT\\storeYT\\store.h",
               "RelativeDocumentMoniker": "store.h",
-              "ToolTip": "C:\\Users\\ahmet\\source\\repos\\storeYT\\store.h",
+              "ToolTip": "C:\\Users\\ahmet\\Documents\\GitHub\\storeYT\\storeYT\\store.h",
               "RelativeToolTip": "store.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -54,9 +54,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "store.cpp",
-              "DocumentMoniker": "C:\\Users\\ahmet\\source\\repos\\storeYT\\store.cpp",
+              "DocumentMoniker": "C:\\Users\\ahmet\\Documents\\GitHub\\storeYT\\storeYT\\store.cpp",
               "RelativeDocumentMoniker": "store.cpp",
-              "ToolTip": "C:\\Users\\ahmet\\source\\repos\\storeYT\\store.cpp",
+              "ToolTip": "C:\\Users\\ahmet\\Documents\\GitHub\\storeYT\\storeYT\\store.cpp",
               "RelativeToolTip": "store.cpp",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",

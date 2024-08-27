@@ -43,6 +43,23 @@ void urunEkle(list <store>* lst) {
 
 }
 
+void urunSil(list <store>* lst) {
+	list<store>::iterator itr;
+	int barkodNumarasi;
+	cout << "Lutfen silmek istediginiz urunun barkod numarasini giriniz: "; cin >> barkodNumarasi;
+	for (itr = lst->begin(); itr != lst->end(); itr++) {
+		if (itr->getBarkodNumarasi() == barkodNumarasi) {
+			break;
+		}
+	}
+	if (itr == lst->end()) {
+		cout << "Lutfen gecerli bir barkod numarasi giriniz!";
+		menuyuGoster();
+	}
+	else
+		lst->erase(itr);
+}
+
 int main() {
 	list <store>* storelist = new list <store>(); // liste oluşturuldu
 	return 0;
