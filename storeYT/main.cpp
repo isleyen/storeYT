@@ -60,6 +60,46 @@ void urunSil(list <store>* lst) {
 		lst->erase(itr);
 }
 
+void stokGuncelle(list <store>* lst) {
+	list<store>::iterator itr;
+	int barkodNumarasi, secenek, miktar, yeniStok;
+	cout << "Lutfen silmek istediginiz urunun barkod numarasini giriniz: "; cin >> barkodNumarasi;
+	for (itr = lst->begin(); itr != lst->end(); itr++) {
+		if (itr->getBarkodNumarasi() == barkodNumarasi) {
+			break;
+		}
+	}
+	if (itr == lst->end()) {
+		cout << "Lutfen gecerli bir barkod numarasi giriniz!";
+		menuyuGoster();
+	}
+	else {
+
+		cout << "Urun eklemek istiyorsaniz 1, silmek istiyorsaniz 2 tuþuna basiniz: "; cin >> secenek;
+
+		switch (secenek) {
+		case 1:
+			cout << "Eklemek istediginiz urun miktarini giriniz: "; cin >> miktar;
+			yeniStok = itr->getStokMiktari() + miktar;
+			itr->setStokMiktari(yeniStok);
+			cout << "Guncel Stok Miktariniz: " << itr->getStokMiktari() << endl;
+			break;
+
+
+		case 2:
+			cout << "Silmek istediginiz urun miktarini giriniz: "; cin >> miktar;
+			while (miktar > itr->getStokMiktari()) {
+				cout << "Lutfen gecerli bir deger giriniz: "; cin >> miktar;
+			}
+
+			yeniStok = itr->getStokMiktari() - miktar;
+			itr->setStokMiktari(yeniStok);
+			cout << "Guncel Stok Miktariniz: " << itr->getStokMiktari() << endl;
+			break;
+		}
+	}
+}
+
 int main() {
 	list <store>* storelist = new list <store>(); // liste oluþturuldu
 	return 0;
