@@ -63,7 +63,7 @@ void urunSil(list <store>* lst) {
 void stokGuncelle(list <store>* lst) {
 	list<store>::iterator itr;
 	int barkodNumarasi, secenek, miktar, yeniStok;
-	cout << "Lutfen silmek istediginiz urunun barkod numarasini giriniz: "; cin >> barkodNumarasi;
+	cout << "Stok miktarini guncellemek istediginiz urunun barkod numarasini giriniz: "; cin >> barkodNumarasi;
 	for (itr = lst->begin(); itr != lst->end(); itr++) {
 		if (itr->getBarkodNumarasi() == barkodNumarasi) {
 			break;
