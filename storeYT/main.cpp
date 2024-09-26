@@ -100,6 +100,31 @@ void stokGuncelle(list <store>* lst) {
 	}
 }
 
+void urunAra(list <store>* lst) {
+	list<store>::iterator itr;
+	int barkodNumarasi;
+	cout << "Aradiginiz urunun barkod numarasini giriniz: "; cin >> barkodNumarasi;
+	for (itr = lst->begin(); itr != lst->end(); itr++) {
+		if (itr->getBarkodNumarasi() == barkodNumarasi) {
+			break;
+		}
+	}
+	if (itr == lst->end()) {
+		cout << "Lutfen gecerli bir barkod numarasi giriniz!";
+		menuyuGoster();
+	}
+	else
+		itr->stokBilgileriniYazdir();
+}
+
+void tumUrunleriListele(list <store>* lst) {
+	list<store>::iterator itr;
+	for (itr = lst->begin(); itr != lst->end(); itr++) {
+		itr->stokBilgileriniYazdir();
+		cout << endl;
+	}
+}
+
 int main() {
 	list <store>* storelist = new list <store>(); // liste oluþturuldu
 	return 0;
