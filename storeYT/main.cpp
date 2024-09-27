@@ -125,7 +125,42 @@ void tumUrunleriListele(list <store>* lst) {
 	}
 }
 
+
 int main() {
 	list <store>* storelist = new list <store>(); // liste oluþturuldu
+
+	int secenek;
+
+	do {
+		menuyuGoster();
+		cout << endl;
+		cout << "Bir Secenek Giriniz: "; cin >> secenek;
+
+		switch (secenek) {
+		case 1:
+			urunEkle(storelist);
+			break;
+		case 2:
+			urunSil(storelist);
+			break;
+		case 3:
+			stokGuncelle(storelist);
+			break;
+		case 4:
+			urunAra(storelist);
+			break;
+		case 5:
+			tumUrunleriListele(storelist);
+			break;
+		case 6:
+			cout << endl;
+			cout << "Cikis Yapiliyor...\n";
+			break;
+		}
+
+	} while (secenek != 6);
+
+	delete storelist; // memory leak (bellek sizintisi)
+
 	return 0;
 }
