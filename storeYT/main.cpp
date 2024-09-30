@@ -33,12 +33,12 @@ void urunEkle(list <store>* lst) {
 	cout << "Eklemek istediginiz urunun barkod numarasini giriniz: "; cin >> barkodNumarasi;
 	cout << "Eklemek istediginiz urunun stok miktarini giriniz: "; cin >> stokMiktari;
 
-	store yeniUrun(urunAdi, fiyat, barkodNumarasi, stokMiktari);
+	store yeniUrun(urunAdi, fiyat, stokMiktari, barkodNumarasi);
 
 
 	lst->push_back(yeniUrun);
 
-	cout << "Yeni urununuz basariyla eklenmiþtir!" << endl;
+	cout << "Yeni urununuz basariyla eklenmistir!\n" << endl;
 
 
 }
@@ -58,6 +58,7 @@ void urunSil(list <store>* lst) {
 	}
 	else
 		lst->erase(itr);
+	cout << "Urununuz Basariyla Silinmistir.\n";
 }
 
 void stokGuncelle(list <store>* lst) {
@@ -75,7 +76,7 @@ void stokGuncelle(list <store>* lst) {
 	}
 	else {
 
-		cout << "Urun eklemek istiyorsaniz 1, silmek istiyorsaniz 2 tuþuna basiniz: "; cin >> secenek;
+		cout << "Urun eklemek istiyorsaniz 1, silmek istiyorsaniz 2 tusuna basiniz: "; cin >> secenek;
 
 		switch (secenek) {
 		case 1:
@@ -127,7 +128,7 @@ void tumUrunleriListele(list <store>* lst) {
 
 
 int main() {
-	list <store>* storelist = new list <store>(); // liste oluþturuldu
+	list <store>* storelist = new list <store>(); // liste olusturuldu
 
 	int secenek;
 
